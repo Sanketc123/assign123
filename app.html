@@ -6,8 +6,29 @@
     <title>Title of your HTML page</title>
 </head>
 <body>
-
-    <h1>Hello</h1>
-    <script src="app.js"></script>
+    <section>
+        <div class="parentContainer">
+            <section class="appDiv">
+                <div class="tab-container">
+                    <div class="tab-header">
+                        <div class="tab-item" data-tab="1">Bullish</div>
+                        <div class="tab-item active" data-tab="2">Bearish</div>
+                        <div class="tab-item" data-tab="3">Rangebound</div>
+                        <div class="tab-item" data-tab="3">Volatile</div>
+                    </div>
+                </div>
+                <div class="datepicker">
+                    <select name="date" id="data">
+                        <option value="24-Apr-2024">24-Apr-2024</option>
+                        <option value="02-May-2024">02-May-2024</option>
+                        <option value="09-May-2024">09-May-2024</option>
+                        <option value="31-May-2024">31-May-2024</option>
+                        <option value="21-Jun-2024">21-Jun-2024</option>
+                      </select>
+                </div>
+            </section>
+        </div>
+    </section>
 </body>
+<script src="app.js"></script>
 </html>

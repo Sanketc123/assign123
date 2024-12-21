@@ -1,3 +1,53 @@
-h1{
-    color: red;
+body{
+    font-family: Arial, sans-serif;
+}
+section .parentContainer .appDiv{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Tab-group */
+
+section .parentContainer .tab-container .tab-header{
+    display: flex;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding:5px 0px;
+}
+
+section .parentContainer .tab-container .tab-header div{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    /* border-right: 1px solid #ccc; */
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    color:#706f6fe0
+}
+
+section .parentContainer .tab-container .tab-header div:last-child{
+    border-right: none;
+}
+
+section .parentContainer .tab-container .tab-header div.active{
+    background-color: blue;
+    font-weight: 900;
+    color: #fff;
+}
+
+/* datePicker */
+section .parentContainer .appDiv .datepicker{
+    margin-top: 20px;
+}
+section .parentContainer .appDiv .datepicker select{
+    width:100%;
+    padding: 15px 17px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+section .parentContainer .appDiv .datepicker select option{
+    
 }
